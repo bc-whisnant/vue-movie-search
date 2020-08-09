@@ -1,21 +1,3 @@
-<template>
-  <div id="app">
-    <SearchMovies />
-  </div>
-</template>
-
-<script>
-import SearchMovies from './components/SearchMovies.vue'
-
-export default {
-  name: 'App',
-  components: {
-    SearchMovies
-  }
-}
-</script>
-
-<style>
 html {
   font-size: 10px;
 }
@@ -119,5 +101,3 @@ small {
   margin: 0 auto;
   display: block;
 }
-
-</style>
